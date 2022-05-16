@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.alertdialogbox"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:5:5-31:19
+12        android:allowBackup="true"
+12-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\Varsha\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.AlertDialogBox" >
+20-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:11:9-52
+21        <activity
+21-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:12:9-16:71
+22            android:name="com.example.alertdialogbox.MainActivity3"
+22-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:13:13-42
+23            android:exported="false"
+23-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:14:13-37
+24            android:label="@string/title_activity_main3"
+24-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:15:13-57
+25            android:theme="@style/Theme.AlertDialogBox.NoActionBar" />
+25-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:16:13-68
+26        <activity
+26-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:17:9-21:71
+27            android:name="com.example.alertdialogbox.MainActivity2"
+27-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:18:13-42
+28            android:exported="false"
+28-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:19:13-37
+29            android:label="@string/title_activity_main2"
+29-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:20:13-57
+30            android:theme="@style/Theme.AlertDialogBox.NoActionBar" />
+30-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:21:13-68
+31        <activity
+31-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.example.alertdialogbox.MainActivity"
+32-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:23:13-41
+33            android:exported="true" >
+33-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:24:13-36
+34            <intent-filter>
+34-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\Users\Varsha\AndroidStudioProjects\AlertDialogBox\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.alertdialogbox.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Varsha\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Varsha\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Varsha\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52
+53        <uses-library
+53-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+54            android:name="androidx.window.extensions"
+54-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+56        <uses-library
+56-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+57            android:name="androidx.window.sidecar"
+57-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0] C:\Users\Varsha\.gradle\caches\transforms-3\8a814577c3bf581ff0fb5aa95a211166\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+59    </application>
+60
+61</manifest>
